@@ -1,10 +1,11 @@
-def get_matrix (n, m, value):
-    matrix = [] # создаем пустой список
+def get_matrix(n, m, value):
+    matrix = []  # Создаем пустой список
     for i in range(n):
-        matrix.append([])  # добавляем список
+        matrix.append([])  # Добавляем список
         for j in range(m):
             matrix[i].append(value)  # Пишем в список значение
-    return
+    return matrix
+
 
 result1 = get_matrix(2, 2, 10)
 result2 = get_matrix(3, 5, 42)
